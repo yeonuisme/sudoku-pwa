@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku PWA</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="theme-color" content="#ffffff"/>
+</head>
+<body>
+    <h1>스도쿠</h1>
+    <div id="controls">
+        <select id="difficulty">
+            <option value="easy">쉬움</option>
+            <option value="medium">보통</option>
+            <option value="hard">어려움</option>
+        </select>
+        <button onclick="startGame()">게임 시작</button>
+        <span id="timer">00:00</span>
+    </div>
+    <div id="board"></div>
+    <script src="script.js"></script>
+</body>
+</html>
